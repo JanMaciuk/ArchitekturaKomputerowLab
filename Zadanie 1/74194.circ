@@ -324,10 +324,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(135,62)" name="Text">
-      <a name="text" val="eduinf.waw.pl/inf/prg/010_uc/74194.php"/>
-      <a name="font" val="SansSerif bold 12"/>
-    </comp>
     <comp lib="0" loc="(440,620)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -338,6 +334,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="6" loc="(624,724)" name="Text">
+      <a name="text" val="eduinf.waw.pl/inf/prg/010_uc/74194.php"/>
+      <a name="font" val="SansSerif bold 12"/>
+    </comp>
     <comp lib="0" loc="(570,30)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
@@ -346,6 +346,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1110,360)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(321,661)" name="Text">
+      <a name="text" val="schemat według dokumentacji: www.ti.com/lit/ds/symlink/sn74ls194a.pdf"/>
+      <a name="font" val="SansSerif bold 14"/>
     </comp>
     <comp lib="1" loc="(890,360)" name="AND Gate">
       <a name="facing" val="south"/>
@@ -397,9 +401,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(620,510)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
-    <comp lib="6" loc="(551,748)" name="Text">
-      <a name="text" val="wersja 2, traktuje symbole O jako podłączenia z NOT"/>
-    </comp>
     <comp lib="1" loc="(1180,510)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
@@ -431,10 +432,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(150,280)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="SR / RIN"/>
-    </comp>
-    <comp lib="6" loc="(287,676)" name="Text">
-      <a name="text" val="schemat według dokumentacji: www.ti.com/lit/ds/symlink/sn74ls194a.pdf"/>
-      <a name="font" val="SansSerif bold 14"/>
     </comp>
     <comp lib="4" loc="(1220,510)" name="S-R Flip-Flop"/>
     <comp lib="0" loc="(160,570)" name="Pin">
